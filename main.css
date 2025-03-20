@@ -1,0 +1,46 @@
+@import url(phone.css);
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    font-weight: 400;
+    width: 100%;
+    background-color: #48dae86d;
+    letter-spacing: -0.03em;
+}
+
+.container{
+    width: 1150px;
+    margin: 0 auto;
+}
+
+.all-info{
+    text-align: center;
+}
+
+h1{
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+h2{
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+button{
+    width: 300px;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: rgb(34, 105, 167);
+}
+button:hover{
+    cursor: pointer;
+}
+
+img{
+    height: 500px;
+    width: 600px;
+}
