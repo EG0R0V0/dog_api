@@ -7,6 +7,7 @@ body{
     height: 100%;
     background-color: #48dae86d;
     letter-spacing: -0.03em;
+
 }
 
 .container{
@@ -20,6 +21,7 @@ body{
 
 h1{
     font-size: 60px;
+    margin-top: 30px;
     margin-bottom: 50px;
 }
 
@@ -46,8 +48,7 @@ img{
 }
 @media (max-width:767px){ 
     .container{
-        width: 767px;
-        padding: 0 13px;
+        width: 100%;
     }
     img{
         height: 250px;
@@ -69,7 +70,7 @@ img{
         margin-bottom: 20px;
         border-radius: 5px;
         color: white;
-        font-size: 13px;
+        font-size: 10px;
         background-color: rgb(34, 105, 167);
     }
 }
